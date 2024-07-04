@@ -661,6 +661,13 @@ form .input-box {
     margin: 12px 0;
 }
 
+.field .error__text{
+    text-align: start;
+    font-size: .85em;
+    color: #b91b1b;
+    display: none;
+}
+
 .field .item::placeholder {
     color: rgba(255, 255, 255, 0.4);
 }
@@ -683,6 +690,7 @@ form button {
     letter-spacing: 1px;
     font-weight: 600;
     cursor: pointer;
+    transition: .3s ease;
 }
 
 form button:hover {
